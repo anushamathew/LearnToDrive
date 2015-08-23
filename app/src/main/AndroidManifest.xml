@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.anusha.learntodrive" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2" >
+        </activity>
+        <activity
+            android:name=".Main22Activity"
+            android:label="@string/title_activity_main22" >
+        </activity>
+        <activity
+            android:name=".Main23Activity"
+            android:label="@string/title_activity_main23" >
+        </activity>
+        <activity
+            android:name=".Main24Activity"
+            android:label="@string/title_activity_main24" >
+        </activity>
+        <activity
+            android:name=".Main25Activity"
+            android:label="@string/title_activity_main25" >
+        </activity>
+        <activity
+            android:name=".Main26Activity"
+            android:label="@string/title_activity_main26" >
+        </activity>
+        <activity
+            android:name=".Main27Activity"
+            android:label="@string/title_activity_main27" >
+        </activity>
+        <activity
+            android:name=".Main28Activity"
+            android:label="@string/title_activity_main28" >
+        </activity>
+        <activity
+            android:name=".Main8Activity"
+            android:label="@string/title_activity_main8" >
+        </activity>
+        <activity
+            android:name=".MainHActivity"
+            android:label="@string/title_activity_main_h" >
+        </activity>
+        <activity
+            android:name=".MainTActivity"
+            android:label="@string/title_activity_main_t" >
+        </activity>
+    </application>
+
+</manifest>
